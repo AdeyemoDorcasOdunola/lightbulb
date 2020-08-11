@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BULB ON & OFF</title>
+	</head>
+	<body>
+		<button onclick="onTouch()" id="but">ON</button>
+		<button onclick="offTouch()">OFF</button>
+		<div id="display">
+			<img src="images/bulboff.gif">
+		</div>
+		<script type="text/javascript">
+
+			function onTouch() {
+				var bulb = 2;
+				if (bulb == 2) {
+					display.innerHTML = "<img src='images/bulbon.gif'>"
+					
+				}
+
+			}
+
+			function offTouch() {
+				var bulb = 2;
+				if (bulb == 2) {
+					display.innerHTML = "<img src='images/bulboff.gif'>"
+				}
+
+			}
+		</script>
+	</body>
+</html>

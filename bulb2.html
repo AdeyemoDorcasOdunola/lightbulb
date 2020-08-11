@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		
+		<img  src="images/bulboff.gif" id="img" style="margin-left: 40px;">
+		<div>			
+		<button onclick="onTouch()" id="button1">ON</button>
+		</div>
+
+		<script type="text/javascript">
+			var bulb  = button1;
+		
+
+			function onTouch() {
+				
+				if (bulb.innerHTML == "ON") {
+					img.src= "images/bulbon.gif"
+					button1.innerHTML = "OFF"
+				} else {
+					img.src = "images/bulboff.gif"
+					button1.innerHTML = "ON"
+				}
+			}
+
+
+		</script>
+	</body>
+</html>
